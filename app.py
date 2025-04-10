@@ -6,5 +6,5 @@ st.write("Welcome to this portfolio")
 container = st.container()
 with container:
     st.subheader("About")
-    c.write("User is....")
-    c.write("user also...")
+    container.write("User is....")
+    container.write("user also...")
